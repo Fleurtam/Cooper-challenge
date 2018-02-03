@@ -1,11 +1,10 @@
 function CooperResult() {}
 
-CooperResult.prototype.male_result = function(obj) {
+CooperResult.prototype.male_result = function() {
 
-switch(age) {
+switch(this.age) {
 
-  case if (age = 13||14) { :
-     for (distance)
+  case (this.age = 13||14):
         if (distance < 2100) {
            result = 'Poor';
         } else if (distance >= 2100 && distance<= 2199) {
@@ -18,10 +17,9 @@ switch(age) {
            result = 'Excellent';
         }
       }
-  break;
 
 
-    case if (age = 15 || 16) {:
+  case (this.age = 15 || 16):
       for (distance)
         if (distance < 2200) {
           result = 'Poor';
@@ -33,11 +31,10 @@ switch(age) {
       result = 'Above Average';
       } else if (distance > 2800) {
       result = 'Excellent';
-      break;
+      }
     }
-  }
 
-      case if (age >= 17 && age <= 19) {:
+      case (this.age >= 17 && this.age <= 19):
   for (distance)
     if (distance < 2300) {
       result = 'Poor';
@@ -49,12 +46,10 @@ switch(age) {
     result = 'Above Average';
   } else if (distance > 3000) {
     result = 'Excellent';
-    break;
   }
 }
 
-
-    case if (age >= 20 && age <= 29) {:
+    case (this.age >= 20 && this.age <= 29):
       for (distance)
         if (distance < 1600) {
           result = 'Poor';
@@ -66,11 +61,11 @@ switch(age) {
         result = 'Above Average';
       } else if (distance > 2800) {
         result = 'Excellent';
-        break;
       }
     }
 
-        case if (age >= 30 && age <= 39) {:
+
+        case (this.age >= 30 && this.age <= 39):
           for (distance)
             if (distance < 1500) {
             result = 'Poor';
@@ -82,11 +77,10 @@ switch(age) {
             result = 'Above Average';
           } else if (distance > 2700) {
             result = 'Excellent';
-            break;
           }
         }
 
-  case if (age >= 40 && age <= 49) {:
+  case (this.age >= 40 && this.age <= 49):
   for (distance)
     if (distance < 1400) {
       result = 'Poor';
@@ -98,11 +92,11 @@ switch(age) {
     result = 'Above Average';
   } else if (distance > 2500) {
     result = 'Excellent';
-    break;
   }
 }
 
-  case if (age >= 50) {:
+
+  case (this.age >= 50):
     for (distance)
       if (distance < 1300) {
         result = 'Poor';
@@ -114,7 +108,5 @@ switch(age) {
       result = 'Above Average';
     } else if (distance > 2400) {
       result = 'Excellent';
-      break;
     }
   }
-}
