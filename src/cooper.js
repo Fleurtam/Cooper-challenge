@@ -1,10 +1,12 @@
 function CooperResult() {}
 
-CooperResult.prototype.male_result = function() {
+CooperResult.prototype.male_result = function(obj) {
+  var age = obj.age
+  var distance = obj.distance
 
-switch(this.age) {
+switch(age) {
 
-  case (this.age = 13||14):
+  case (age = 13||14):
         if (distance < 2100) {
            result = 'Poor';
         } else if (distance >= 2100 && distance<= 2199) {
@@ -17,7 +19,7 @@ switch(this.age) {
            result = 'Excellent';
         }
 
-  case (this.age = 15 || 16):
+  case (age = 15 || 16):
         if (distance < 2200) {
           result = 'Poor';
       } else if (distance >= 2200 && distance <= 2299) {
@@ -31,7 +33,7 @@ switch(this.age) {
       }
 
 
-      case (this.age >= 17 && this.age <= 19):
+      case (age >= 17 && this.age <= 19):
     if (distance < 2300) {
       result = 'Poor';
     } else if (distance >= 2300 && distance <= 2499) {
@@ -44,8 +46,7 @@ switch(this.age) {
     result = 'Excellent';
   }
 
-
-    case (this.age >= 20 && this.age <= 29):
+    case (age >= 20 && this.age <= 29):
         if (distance < 1600) {
           result = 'Poor';
         } else if (distance >= 1600 && distance <= 2199) {
@@ -58,9 +59,7 @@ switch(this.age) {
         result = 'Excellent';
       }
 
-
-
-        case (this.age >= 30 && this.age <= 39):
+        case (age >= 30 && this.age <= 39):
             if (distance < 1500) {
             result = 'Poor';
           } else if (distance >= 1500 && distance <= 1999) {
@@ -73,9 +72,8 @@ switch(this.age) {
             result = 'Excellent';
           }
 
-
-  case (this.age >= 40 && this.age <= 49):
-    if (distance < 1400) {
+  case (age >= 40 && this.age <= 49):
+      if (distance < 1400) {
       result = 'Poor';
     } else if (distance >= 1400 && distance <= 1699) {
     result = 'Below Average';
@@ -87,9 +85,7 @@ switch(this.age) {
     result = 'Excellent';
   }
 
-
-
-  case (this.age >= 50):
+  case (age >= 50):
       if (distance < 1300) {
         result = 'Poor';
       } else if (distance >= 1300 && distance <= 1599) {
@@ -100,5 +96,6 @@ switch(this.age) {
       result = 'Above Average';
     } else if (distance > 2400) {
       result = 'Excellent';
-    }
+      }
   }
+};
