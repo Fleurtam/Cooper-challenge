@@ -8,7 +8,7 @@ describe("CooperResult", function() {
   });
 
   it("it returns cooper result for males", function() {
-    expect(person.male_result).toEqual("Above Average");
+    expect(person.result).toEqual("Above Average");
   });
 
 });

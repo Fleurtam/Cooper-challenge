@@ -2,9 +2,9 @@ function Person(attr) {
   this.gender = attr.gender;
   this.age = attr.age;
   this.distance = attr.distance;
-};
+}
 
-Person.prototype.male_result = function() {
+Person.prototype.score_result = function() {
  result = new CooperResult();
- result.result_male(this);
+ result.male_result(this);
 };
