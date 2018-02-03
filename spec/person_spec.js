@@ -7,10 +7,10 @@ describe("Person", function() {
   });
 
   it("should have gender of male", function (){
-    excpect(person.gender).toEqual('male');
+    expect(person.gender).toEqual('male');
   });
 
   it("should have age of 17", function (){
-    excpect(person.age).toEqual(17);
+    expect(person.age).toEqual(17);
   });
 });
