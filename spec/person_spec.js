@@ -19,6 +19,6 @@ describe("Person", function() {
   });
 
   it("should return cooper result of 'Above Average'", function (){
-    expect(person.message).toEqual('Above Average');
+    expect(person.result).toEqual('Above Average');
   });
 });
