@@ -17,4 +17,8 @@ describe("Person", function() {
   it("should have run distance of 2700 meters", function (){
     expect(person.distance).toEqual(2700);
   });
+
+  it("should return cooper result of 'Above Average'", function (){
+    expect(person.message).toEqual('Above Average');
+  });
 });
