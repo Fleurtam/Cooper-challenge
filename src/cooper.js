@@ -16,8 +16,6 @@ switch(this.age) {
         } else if (distance >2700) {
            result = 'Excellent';
         }
-      }
-
 
   case (this.age = 15 || 16):
       for (distance)
@@ -32,7 +30,7 @@ switch(this.age) {
       } else if (distance > 2800) {
       result = 'Excellent';
       }
-    }
+
 
       case (this.age >= 17 && this.age <= 19):
   for (distance)
@@ -47,7 +45,7 @@ switch(this.age) {
   } else if (distance > 3000) {
     result = 'Excellent';
   }
-}
+
 
     case (this.age >= 20 && this.age <= 29):
       for (distance)
@@ -62,7 +60,7 @@ switch(this.age) {
       } else if (distance > 2800) {
         result = 'Excellent';
       }
-    }
+
 
 
         case (this.age >= 30 && this.age <= 39):
@@ -78,7 +76,7 @@ switch(this.age) {
           } else if (distance > 2700) {
             result = 'Excellent';
           }
-        }
+
 
   case (this.age >= 40 && this.age <= 49):
   for (distance)
@@ -93,7 +91,7 @@ switch(this.age) {
   } else if (distance > 2500) {
     result = 'Excellent';
   }
-}
+
 
 
   case (this.age >= 50):
