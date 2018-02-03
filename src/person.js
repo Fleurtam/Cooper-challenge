@@ -5,6 +5,6 @@ function Person(attr) {
 };
 
 Person.prototype.result = function() {
-  this.distance = 2700;
-  this.result = "Above Average"
+ result = new CooperResult();
+ result.result_male(this);
 };
