@@ -13,4 +13,7 @@ describe("Person", function() {
   it("should have age of 17", function (){
     expect(person.age).toEqual(17);
   });
+  it("should have ran distance of 2700 meters", function (){
+    expect(person.distance).toEqual(2700);
+  });
 });
