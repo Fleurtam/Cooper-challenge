@@ -18,7 +18,6 @@ switch(this.age) {
         }
 
   case (this.age = 15 || 16):
-      for (distance)
         if (distance < 2200) {
           result = 'Poor';
       } else if (distance >= 2200 && distance <= 2299) {
@@ -33,7 +32,6 @@ switch(this.age) {
 
 
       case (this.age >= 17 && this.age <= 19):
-  for (distance)
     if (distance < 2300) {
       result = 'Poor';
     } else if (distance >= 2300 && distance <= 2499) {
@@ -48,7 +46,6 @@ switch(this.age) {
 
 
     case (this.age >= 20 && this.age <= 29):
-      for (distance)
         if (distance < 1600) {
           result = 'Poor';
         } else if (distance >= 1600 && distance <= 2199) {
@@ -64,7 +61,6 @@ switch(this.age) {
 
 
         case (this.age >= 30 && this.age <= 39):
-          for (distance)
             if (distance < 1500) {
             result = 'Poor';
           } else if (distance >= 1500 && distance <= 1999) {
@@ -79,7 +75,6 @@ switch(this.age) {
 
 
   case (this.age >= 40 && this.age <= 49):
-  for (distance)
     if (distance < 1400) {
       result = 'Poor';
     } else if (distance >= 1400 && distance <= 1699) {
@@ -95,7 +90,6 @@ switch(this.age) {
 
 
   case (this.age >= 50):
-    for (distance)
       if (distance < 1300) {
         result = 'Poor';
       } else if (distance >= 1300 && distance <= 1599) {
