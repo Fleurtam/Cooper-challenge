@@ -12,10 +12,9 @@ function Person(attr) {
 Person.prototype.male_result = function(obj) {
   var age = this.age;
   var distance = this.distance;
-
   switch (true) {
 
-    case (age === 13 || 14):
+    case (age === 13 || age === 14):
       if (distance < 2100) {
         return 'Poor';
       }
