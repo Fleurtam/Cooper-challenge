@@ -21,6 +21,8 @@ switch(age) {
            result =  'Excellent';
         }
 
+        break;
+
   case (age === 15 || 16):
         if (distance < 2200) {
           result = 'Poor';
@@ -33,6 +35,7 @@ switch(age) {
       } else if (distance > 2800) {
       result =  'Excellent';
       }
+      break;
 
 
       case (age >= 17 && age <= 19):
@@ -48,6 +51,8 @@ switch(age) {
   } else if (distance > 3000) {
     result =  'Excellent';
   }
+  break;
+
 
     case (age >= 20 && age <= 29):
         if (distance < 1600) {
@@ -61,6 +66,7 @@ switch(age) {
       } else if (distance > 2800) {
         result =  'Excellent';
       }
+      break;
 
         case (age >= 30 && age <= 39):
             if (distance < 1500) {
@@ -74,6 +80,7 @@ switch(age) {
           } else if (distance > 2700) {
             result =  'Excellent';
           }
+          break;
 
   case (age >= 40 && age <= 49):
       if (distance < 1400) {
@@ -87,6 +94,7 @@ switch(age) {
   } else if (distance > 2500) {
     result =  'Excellent';
   }
+  break;
 
   case (age >= 50):
       if (distance < 1300) {
@@ -101,8 +109,6 @@ switch(age) {
       result = 'Excellent';
       }
   }
-
-console.log(result);
-break;
+  break;
 
 };
