@@ -11,6 +11,8 @@ Person.prototype.male_result = function(obj) {
   var male_result = new CooperResult();
   CooperResult.male_result(this);
 
+switch(gender)
+case "male" {
 
   switch(Person.distance) {
 
@@ -147,6 +149,8 @@ Person.prototype.male_result = function(obj) {
 
 //FEMALE VERSION
 
+case "female"
+
 case (age === 13 || age === 14):
   if (distance < 1500) {
     return 'Poor';
@@ -275,5 +279,6 @@ case (age >= 50):
   }
 
   break;
+}
 }
 };
