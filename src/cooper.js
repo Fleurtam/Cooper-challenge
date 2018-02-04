@@ -5,11 +5,10 @@ function Person(attr) {
   this.distance = attr.distance;
 }
 
+Person.prototype.CooperResult = function() {
+   var male_result = new CooperResult
+  CooperResult.male_result(person)
 
-
-
-
-Person.prototype.male_result = function(obj) {
   var age = this.age;
   var distance = this.distance;
   switch (true) {
