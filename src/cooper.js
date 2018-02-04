@@ -5,13 +5,14 @@ function Person(attr) {
   this.distance = attr.distance;
 }
 
-Person.prototype.CooperResult = function() {
-   var male_result = new CooperResult
-  CooperResult.male_result(person)
-
+Person.prototype.male_result = function(obj) {
   var age = this.age;
   var distance = this.distance;
-  switch (true) {
+  var male_result = new CooperResult();
+  CooperResult.male_result(this);
+
+
+  switch(Person.distance) {
 
     case (age === 13 || age === 14):
       if (distance < 2100) {
@@ -32,7 +33,7 @@ Person.prototype.CooperResult = function() {
 
       break;
 
-    case (age === 15 || 16):
+    case (age === 15 || age === 16):
       if (distance < 2200) {
         return 'Poor';
       }
