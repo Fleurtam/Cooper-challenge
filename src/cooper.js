@@ -1,4 +1,3 @@
-
 function Person(attr) {
   this.gender = attr.gender;
   this.age = attr.age;
@@ -11,10 +10,10 @@ Person.prototype.male_result = function(obj) {
   var male_result = new CooperResult();
   CooperResult.male_result(this);
 
-switch(gender)
-case "male" {
+switch(gender){
+  case "male":
 
-  switch(Person.distance) {
+  switch(age) {
 
     case (age === 13 || age === 14):
       if (distance < 2100) {
@@ -40,7 +39,7 @@ case "male" {
         return 'Poor';
       }
       else if (distance >= 2200 && distance <= 2299) {
-        'Below Average';
+        return 'Below Average';
       }
       else if (distance >= 2300 && distance <= 2499) {
         return  'Average';
@@ -55,7 +54,7 @@ case "male" {
 
     case (age >= 17 && age <= 19):
       if (distance < 2300) {
-        return  'Poor'
+        return 'Poor';
       }
       else if (distance >= 2300 && distance <= 2499) {
         return  'Below Average';
@@ -92,7 +91,7 @@ case "male" {
 
     case (age >= 30 && age <= 39):
       if (distance < 1500) {
-        return = 'Poor';
+        return  'Poor';
       }
       else if (distance >= 1500 && distance <= 1999) {
         return  'Below Average';
@@ -110,7 +109,7 @@ case "male" {
 
     case (age >= 40 && age <= 49):
       if (distance < 1400) {
-        return = 'Poor';
+        return  'Poor';
       }
       else if (distance >= 1400 && distance <= 1699) {
         return 'Below Average';
@@ -143,19 +142,18 @@ case "male" {
         return 'Excellent';
       }
 
-      break;
-  }
-};
+  }    break;
+
 
 //FEMALE VERSION
 
-case "female"
+case "female":
 
 case (age === 13 || age === 14):
   if (distance < 1500) {
     return 'Poor';
   }
-  else if (distance >= 1500 && distance <= 1599 {
+  else if (distance >= 1500 && distance <= 1599) {
     return 'Below Average';
   }
   else if (distance >= 1600 && distance <= 1899) {
@@ -175,7 +173,7 @@ case (age === 15 || age === 16):
     return 'Poor';
   }
   else if (distance >= 1600 && distance <= 1699) {
-    'Below Average';
+    return 'Below Average';
   }
   else if (distance >= 1700 && distance <= 1999) {
     return  'Average';
@@ -190,7 +188,7 @@ case (age === 15 || age === 16):
 
 case (age >= 17 && age <= 19):
   if (distance < 1700) {
-    return  'Poor'
+    return  'Poor';
   }
   else if (distance >= 1700 && distance <= 1799) {
     return  'Below Average';
@@ -227,7 +225,7 @@ case (age >= 20 && age <= 29):
 
 case (age >= 30 && age <= 39):
   if (distance < 1400) {
-    return = 'Poor';
+    return  'Poor';
   }
   else if (distance >= 1400 && distance <= 1699) {
     return  'Below Average';
@@ -245,7 +243,7 @@ case (age >= 30 && age <= 39):
 
 case (age >= 40 && age <= 49):
   if (distance < 1200) {
-    return = 'Poor';
+    return  'Poor';
   }
   else if (distance >= 1200 && distance <= 1499) {
     return 'Below Average';
@@ -270,7 +268,7 @@ case (age >= 50):
   }
   else if (distance >= 1400 && distance <= 1699) {
     return 'Average';
-
+  }
   else if (distance >= 1700 && distance <= 2199) {
     return 'Above Average';
   }
@@ -279,6 +277,5 @@ case (age >= 50):
   }
 
   break;
-}
 }
 };
