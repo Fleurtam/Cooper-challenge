@@ -7,10 +7,9 @@ function Person(attr) {
 Person.prototype.male_result = function(obj) {
   var age = this.age;
   var distance = this.distance;
-  var male_result = new CooperResult();
-  CooperResult.male_result(this);
+  var gender = this.gender;
 
-switch(gender){
+switch(obj){
   case "male":
 
   switch(age) {

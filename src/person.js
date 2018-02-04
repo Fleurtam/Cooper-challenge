@@ -4,8 +4,7 @@ function Person(attr) {
   this.distance = attr.distance;
 }
 
-Person.prototype.score_result = function() {
+Person.prototype.CooperResult = function() {
  score_result = new CooperResult();
  score_result.male_result(this);
- setscore_result(this);
 };
