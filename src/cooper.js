@@ -51,7 +51,6 @@ Person.prototype.male_result = function(obj) {
       }
       break;
 
-
     case (age >= 17 && age <= 19):
       if (distance < 2300) {
         return  'Poor'
@@ -144,4 +143,137 @@ Person.prototype.male_result = function(obj) {
 
       break;
   }
+};
+
+//FEMALE VERSION
+
+case (age === 13 || age === 14):
+  if (distance < 1500) {
+    return 'Poor';
+  }
+  else if (distance >= 1500 && distance <= 1599 {
+    return 'Below Average';
+  }
+  else if (distance >= 1600 && distance <= 1899) {
+    return  'Average';
+  }
+  else if (distance >= 1900 && distance <= 1999) {
+    return  'Above Average';
+  }
+  else if (distance > 2000) {
+    return 'Excellent';
+  }
+
+  break;
+
+case (age === 15 || age === 16):
+  if (distance < 1600) {
+    return 'Poor';
+  }
+  else if (distance >= 1600 && distance <= 1699) {
+    'Below Average';
+  }
+  else if (distance >= 1700 && distance <= 1999) {
+    return  'Average';
+  }
+  else if (distance >= 2000 && distance <= 2099) {
+    return 'Above Average';
+  }
+  else if (distance > 2100) {
+    return  'Excellent';
+  }
+  break;
+
+case (age >= 17 && age <= 19):
+  if (distance < 1700) {
+    return  'Poor'
+  }
+  else if (distance >= 1700 && distance <= 1799) {
+    return  'Below Average';
+  }
+  else if (distance >= 1800 && distance <= 2099) {
+    return  'Average';
+  }
+  else if (distance >= 2100 && distance <= 2299) {
+    return  'Above Average';
+  }
+  else if (distance > 2300) {
+    return 'Excellent';
+  }
+  break;
+
+
+case (age >= 20 && age <= 29):
+  if (distance < 1500) {
+    return 'Poor';
+  }
+  else if (distance >= 1500 && distance <= 1799) {
+    return 'Below Average';
+  }
+  else if (distance >= 1800 && distance <= 2199) {
+    return  'Average';
+  }
+  else if (distance >= 2200 && distance <= 2699) {
+    return  'Above Average';
+  }
+  else if (distance > 2700) {
+    return  'Excellent';
+  }
+  break;
+
+case (age >= 30 && age <= 39):
+  if (distance < 1400) {
+    result = 'Poor';
+  }
+  else if (distance >= 1400 && distance <= 1699) {
+    return  'Below Average';
+  }
+  else if (distance >= 1700 && distance <= 1999) {
+    return 'Average';
+  }
+  else if (distance >= 2000 && distance <= 2499) {
+    return 'Above Average';
+  }
+  else if (distance > 2500) {
+    return  'Excellent';
+  }
+  break;
+
+case (age >= 40 && age <= 49):
+  if (distance < 1200) {
+    result = 'Poor';
+  }
+  else if (distance >= 1200 && distance <= 1499) {
+    return 'Below Average';
+  }
+  else if (distance >= 1500 && distance <= 1899) {
+    return  'Average';
+  }
+  else if (distance >= 1900 && distance <= 2299) {
+    return 'Above Average';
+  }
+  else if (distance > 2300) {
+    return 'Excellent';
+  }
+  break;
+
+case (age >= 50):
+  if (distance < 1100) {
+    return  'Poor';
+  }
+  else if (distance >= 1100 && distance <= 1399) {
+    return  'Below Average';
+  }
+  else if (distance >= 1400 && distance <= 1699) {
+    return 'Average';
+
+  else if (distance >= 1700 && distance <= 2199) {
+    return 'Above Average';
+  }
+  else if (distance > 2200) {
+    return 'Excellent';
+  }
+
+  break;
+}
 };
