@@ -1,9 +1,9 @@
-function CooperResult() {}
+function CooperResult() {
+  }
 
 CooperResult.prototype.male_result = function(obj) {
-  var age = obj.age
-  var distance = obj.distance
-
+  var age = obj.age;
+  var distance = obj.distance;
 
 switch(age) {
 
@@ -34,7 +34,7 @@ switch(age) {
       }
 
 
-      case (age >= 17 && this.age <= 19):
+      case (age >= 17 && age <= 19):
     if (distance < 2300) {
       result =  'Poor';
     } else if (distance >= 2300 && distance <= 2499) {
@@ -47,7 +47,7 @@ switch(age) {
     result =  'Excellent';
   }
 
-    case (age >= 20 && this.age <= 29):
+    case (age >= 20 && age <= 29):
         if (distance < 1600) {
           result = 'Poor';
         } else if (distance >= 1600 && distance <= 2199) {
@@ -60,7 +60,7 @@ switch(age) {
         result =  'Excellent';
       }
 
-        case (age >= 30 && this.age <= 39):
+        case (age >= 30 && age <= 39):
             if (distance < 1500) {
             result =  'Poor';
           } else if (distance >= 1500 && distance <= 1999) {
@@ -73,7 +73,7 @@ switch(age) {
             result =  'Excellent';
           }
 
-  case (age >= 40 && this.age <= 49):
+  case (age >= 40 && age <= 49):
       if (distance < 1400) {
       result =  'Poor';
     } else if (distance >= 1400 && distance <= 1699) {
@@ -88,7 +88,7 @@ switch(age) {
 
   case (age >= 50):
       if (distance < 1300) {
-        result =  'Poor';
+        result = 'Poor';
       } else if (distance >= 1300 && distance <= 1599) {
       result =  'Below Average';
     } else if (distance >= 1600 && distance <= 1999) {
@@ -99,4 +99,8 @@ switch(age) {
       result = 'Excellent';
       }
   }
+
+console.log(result);
+break;
+
 };
