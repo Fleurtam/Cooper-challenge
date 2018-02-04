@@ -90,7 +90,7 @@ Person.prototype.male_result = function(obj) {
 
     case (age >= 30 && age <= 39):
       if (distance < 1500) {
-        result = 'Poor';
+        return = 'Poor';
       }
       else if (distance >= 1500 && distance <= 1999) {
         return  'Below Average';
@@ -108,7 +108,7 @@ Person.prototype.male_result = function(obj) {
 
     case (age >= 40 && age <= 49):
       if (distance < 1400) {
-        result = 'Poor';
+        return = 'Poor';
       }
       else if (distance >= 1400 && distance <= 1699) {
         return 'Below Average';
@@ -223,7 +223,7 @@ case (age >= 20 && age <= 29):
 
 case (age >= 30 && age <= 39):
   if (distance < 1400) {
-    result = 'Poor';
+    return = 'Poor';
   }
   else if (distance >= 1400 && distance <= 1699) {
     return  'Below Average';
@@ -241,7 +241,7 @@ case (age >= 30 && age <= 39):
 
 case (age >= 40 && age <= 49):
   if (distance < 1200) {
-    result = 'Poor';
+    return = 'Poor';
   }
   else if (distance >= 1200 && distance <= 1499) {
     return 'Below Average';
