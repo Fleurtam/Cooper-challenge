@@ -5,6 +5,6 @@ function Person(attr) {
 }
 
 Person.prototype.CooperResult = function() {
- score_result = new CooperResult();
- score_result.male_result(this);
+  score_result = new CooperResult();
+  score_result.male_result(this);
 };
