@@ -7,4 +7,5 @@ function Person(attr) {
 Person.prototype.score_result = function() {
  score_result = new CooperResult();
  score_result.male_result(this);
+ setscore_result(this);
 };
